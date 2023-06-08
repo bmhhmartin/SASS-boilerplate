@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ol,
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+}
+
+a {
+    outline: none;
+}
+
+img {
+    border: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+p,
+address {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 1199.98px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+/*css starts now*/
+
+$primary-blue: #011E41;
+$blue-mid: #7B8A9C;
+$blue-light: #ADB9C3;
+$blue-tint: #DFE7EA;
+
+
+@mixin border-radius($radius) {
+    border-radius: $radius;
+}
+
+@mixin transform($transform) {
+    -webkit-transform: $transform;
+    -ms-transform: $transform;
+    transform: $transform;
+}
+
+@mixin transition($transition) {
+    -webkit-transition: all $transition linear;
+    -o-transition: all $transition linear;
+    transition: all $transition linear;
+}

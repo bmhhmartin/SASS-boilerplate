@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Electrolux-Light";
+  src: url("../fonts/Electrolux-Sans-Light.otf");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Electrolux-Regular";
+  src: url("../fonts/Electrolux-Sans-Regular.otf");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Electrolux-Semibold";
+  src: url("../fonts/Electrolux-Sans-Semibold.otf");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Electrolux-Bold";
+  src: url("../fonts/Electrolux-Sans-Bold.otf");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+$electrolux_light: "Electrolux-Light", sans-serif;
+$electrolux_regular: "Electrolux-Regular", sans-serif;
+$electrolux_semibold: "Electrolux-Semibold", sans-serif;
+$electrolux_bold: "Electrolux-Bold", sans-serif;
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  vertical-align: middle;
+  font-feature-settings: 'liga';
+  margin-top: -2px;
+}
+
+.material-icons-outlined {
+  font-family: 'Material Icons Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+  margin-top: -2px;
+}
